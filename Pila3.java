@@ -2,7 +2,7 @@ public class Pila3  <T>  {
 	private T Esquina[];
 	private int indice;
 	//contructor
-	
+	@SuppressWarnings("unchecked")
 	public Pila3(int n){    
 		Esquina = (T[])new Object[n];
 		indice = 0;
